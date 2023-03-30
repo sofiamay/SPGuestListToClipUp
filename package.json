@@ -1,0 +1,22 @@
+{
+  "name": "sp-to-clipup",
+  "version": "1.0.0",
+  "description": "Update guest list in ClipUp by webscraping SP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "find ./test -name '*_test.js' | xargs mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiamay/SPGuestListToClipUp.git"
+  },
+  "author": "Sofia May",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiamay/SPGuestListToClipUp/issues"
+  },
+  "dependencies": {
+    "puppeteer": "^19.8.2"
+  }
+}
